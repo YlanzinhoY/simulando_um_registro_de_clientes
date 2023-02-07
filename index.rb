@@ -11,13 +11,13 @@ sleep 5
 
 cliente = clientes[id_cliente]
 
-if cliente != nil?
+if cliente != nil
   puts("Nome: #{cliente[:nome]}")
   puts("Akuma no mi: #{cliente[:akuma_no_mi]}")
   puts("data de cadastro: #{cliente[:data_de_cadastro]}")
   puts
   puts "programa finalizado! 🤪"
 else
-  puts("Usuario não encontrado")
+  puts("Cliente não encontrado 😥")
 end
 
