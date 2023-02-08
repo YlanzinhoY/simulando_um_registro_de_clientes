@@ -16,8 +16,8 @@ if cliente != nil
   puts("Akuma no mi: #{cliente[:akuma_no_mi]}")
   puts("data de cadastro: #{cliente[:data_de_cadastro]}")
   puts
-  puts "programa finalizado! 🤪"
+  puts "programa finalizado!🤪"
 else
-  puts("Cliente não encontrado 😥")
+  puts("Cliente não encontrado😥")
 end
 
